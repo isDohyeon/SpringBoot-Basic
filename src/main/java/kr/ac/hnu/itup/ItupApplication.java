@@ -7,9 +7,10 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ImportResource;
 
+
 @Slf4j
 @SpringBootApplication
-@ImportResource("classpath:root-context.xml")
+//@ImportResource("classpath:root-context.xml")
 public class ItupApplication {
 
     public static void main(String[] args) {
