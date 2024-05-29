@@ -20,7 +20,7 @@ public class RestaurantConfig {
     public Chef chef() {
         Chef chef = new Chef();
         chef.setAge(57);
-        chef.setName("백종원");
+        chef.setName("박도현");
         return chef;
     }
 }
