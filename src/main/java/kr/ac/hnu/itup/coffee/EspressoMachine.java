@@ -8,7 +8,7 @@ public class EspressoMachine implements CoffeeMachine {
     @Override
     public Coffee brew(Bean bean) {
         log.info("Bean : {}", bean);
-        log.info("원두를 통해 커피를 만듭니다.");
+        log.info("원두를 통해 에스프레소를 만듭니다.");
         return new Coffee();
     }
 }
