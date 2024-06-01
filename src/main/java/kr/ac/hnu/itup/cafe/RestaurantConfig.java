@@ -1,4 +1,4 @@
-package kr.ac.hnu.itup;
+package kr.ac.hnu.itup.cafe;
 
 
 import org.springframework.context.annotation.Bean;

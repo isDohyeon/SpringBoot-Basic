@@ -2,13 +2,13 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean class="kr.ac.hnu.itup.Chef" id="chef"><!-- Chef chef = new Chef(); 와 같은 코드이다. -->
+    <bean class="kr.ac.hnu.itup.cafe.Chef" id="chef"><!-- Chef chef = new Chef(); 와 같은 코드이다. -->
         <!--chef.setName("백종원");와 같음-->
         <property name="name" value="백종원"/>
         <!-- chef.setAge(57); -->
         <property name="age" value="57"/>
     </bean>
-    <bean class="kr.ac.hnu.itup.Restaurant" id="restaurant">
+    <bean class="kr.ac.hnu.itup.cafe.Restaurant" id="restaurant">
         <property name="name" value="miso restaurant"/>
         <property name="address" value="대전광역시 동구"/>
         <property name="phone" value="042-123-4567"/>

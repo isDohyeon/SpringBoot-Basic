@@ -1,8 +1,6 @@
-package kr.ac.hnu.itup;
+package kr.ac.hnu.itup.cafe;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
 public class Restaurant {

@@ -17,7 +17,6 @@ public class CoffeeApplication {
         ApplicationContext context = SpringApplication.run(CoffeeApplication.class, args);
         Cafe cafe = context.getBean("cafe", Cafe.class);
         Coffee iceAmericano = cafe.getOrder(5000, "아이스 아메리카노");
-        System.out.println(iceAmericano + "를 마신다.");
-        log.info("마시는 커피 : {}", iceAmericano);
+        //log.info("마시는 커피 : {}", iceAmericano);
     }
 }

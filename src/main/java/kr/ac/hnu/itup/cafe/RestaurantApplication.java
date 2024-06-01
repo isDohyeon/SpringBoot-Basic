@@ -1,8 +1,7 @@
-package kr.ac.hnu.itup;
+package kr.ac.hnu.itup.cafe;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 @Slf4j

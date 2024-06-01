@@ -1,5 +1,6 @@
 package kr.ac.hnu.itup.coffee;
 
+import org.aspectj.lang.annotation.Before;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -28,5 +29,10 @@ public class CoffeeConfig {
         Cafe cafe = new Cafe(drip());
         cafe.setBarista(barista());
         return cafe;
+    }
+
+    @Bean
+    public CoffeeAdvice coffeeAdvice() {
+        return new CoffeeAdvice();
     }
 }
